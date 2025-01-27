@@ -20,5 +20,5 @@ jobs:
 
       - name: Run query script
         env:
-          HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
+          HF_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
         run: python hf_api.py
